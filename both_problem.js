@@ -8,7 +8,8 @@ x="No";
 break;
 }
 }
-
+console.log(x);
+}
 
 
 
@@ -22,9 +23,14 @@ break;
   let str="nrupul"
  let i=0;
  let j=N-1;
- let flag="No";
+ let flag="Yes";
 while(i<j){
   if(str[i]!==str[j]){
-  flag="No";
+  flag="Yes";
  
+}
+i++;
+j--;
+}
+console.log(flag);
 }
