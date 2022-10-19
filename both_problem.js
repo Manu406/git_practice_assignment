@@ -2,7 +2,7 @@
 
 let num=13;
 let x="Yes";
-for(let i=1;i<num;i++){
+for(let i=2;i<num;i++){
 if(num%===0){
 x="No";
 break;
@@ -26,7 +26,7 @@ console.log(x);
  let flag="Yes";
 while(i<j){
   if(str[i]!==str[j]){
-  flag="Yes";
+  flag="No";
  
 }
 i++;
